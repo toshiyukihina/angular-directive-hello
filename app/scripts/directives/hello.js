@@ -3,7 +3,7 @@
 angular.module('angularDirectiveHelloApp')
   .directive('hello', function () {
     return {
-      templateUrl: 'views/partials/helloTemplate.html',
+      templateUrl: 'helloTemplateCache.html',
       restrict: 'E',
       replace: true
     };
